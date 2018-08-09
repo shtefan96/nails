@@ -1,0 +1,167 @@
+body,html,{
+	margin:0;
+	padding:0;
+	font-family:Palatino Linotype;
+}
+.bg_for1{
+	background: url(../img/bg.png)
+	repeat-y top center;
+	height:4700px;
+}
+.width1170{
+	width:1170px;
+	position:relative;
+	left:50%;
+	margin-left:-550px;
+	top:400px;
+	background:rgb(245,236,233,0.75);
+	height:4288px;
+}
+.menu_list{
+	background: url(../img/bg_for_menu_list.png)
+	no-repeat top center;
+	height:55px;
+	margin:0px;
+}
+.main_menu{
+	opacity:1;
+}
+.menu_list li{
+	display:inline-block;
+	position:relative;
+	top:10px;
+	left:40px;
+	margin-right:40px;
+	font-size:30px;
+}
+.menu_list li a{
+	color:white;
+	text-decoration: none;
+}
+.menu_icons{
+	background: url(../img/menu_bg.png)
+no-repeat top center;
+	height:400px;
+	position:relative;
+	top:-24px;
+	margin:0px;
+}
+.menu_icons_text{
+	position:relative;
+	left:335px;
+	width:480px;
+	height:320px;
+	top:30px;
+}
+.sale{
+	font-size:86px;
+	color:#D5202D;
+	margin:0px 100px;
+}
+.iph_99{
+	color:#923175;
+	font-size:30px;
+	padding-left:20px;
+	padding-top:25px;
+	text-align:left;
+}
+.menu_icons img{
+	position: absolute;
+	left:805px;
+	top:30px;
+}
+.btn1{
+	margin:10px 80px;
+	width:327px;
+	height:82px;
+	border:1px solid #9B5D8C;
+	background:#9B5D8C;
+	border-radius:8px;
+	color:white;
+	font-size:36px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.l_r_strilka{
+	position: relative;
+	left: -770px;
+	top:-180px;
+}
+.l_strilka{
+	transform: scale(1, 1);
+	margin-left: 1050px;
+}
+.r_strilka{
+	transform: scale(-1, 1);
+}
+.down_strilka{
+	position:absolute;
+	top:500px;
+	left:-310px;
+}
+.menu_icons .d_strilka{
+	transform: rotate(90deg);
+}
+.products{
+	margin-top:300px;
+}
+.product{
+	margin-top:200px;
+}
+.float_l{
+	float:left;
+}
+.margin_r{
+	margin-right:25px;
+}
+.margin_top{
+	margin-top:100px;
+}
+.opus{
+	font-size:24px;
+	color:#787878;
+	line-height:1.5;
+	font-style:italic;
+}
+p{
+	margin:20px;
+	text-indent:25px;
+}
+h2{
+	text-align:center;
+}
+.our_master{
+	margin-top:200px;
+}
+.our_masters h2{
+	text-decoration:underline;
+	font-size:36px;
+	color:#787878;
+	font-style:italic;
+	margin-top:113px;
+	margin-bottom:85px;
+}
+.our_masters .master_logo{
+	float:left;
+	margin:0px 20px;
+}
+.master_logo p{
+	margin:0px;
+	color:#676161;
+	text-align:center;
+}
+.master_logo p:last-child{
+	color:#968F8D;
+}
+.p{
+	padding-top:20px;
+	padding-bottom:70px;
+	line-height:1.25;
+}
+footer{
+	color:red;
+	text-align:center;
+	font-size:50px;
+	background: url(../img/bg_footer.png) no-repeat top center;
+	padding:50px;
+	margin:none;
+}	
